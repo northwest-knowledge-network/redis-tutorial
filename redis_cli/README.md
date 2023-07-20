@@ -6,9 +6,9 @@ redis-cli is a command line interface for interacting with redis. Unserstanding 
 
 ## Basic commands and getting started
 
-To start, connect to your redis instance:
+To start, connect to your redis instance. If you run your container on the non-default port (defualt: 6379), you will need to specify the port with the `-p` flag. Here is the basic command to connect to a redis instance running on port 6379:
 
-`redis-cli -h 127.0.0.1 -p 5020`
+`redis-cli`
 
 To see if there are any keys in the database:
 
