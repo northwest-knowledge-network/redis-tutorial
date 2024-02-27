@@ -2,3 +2,4 @@ redis_python/venv/*
 redis_python/.ipynb_checkpoints/*
 .DS_Store
 redis_pyton/.DS_Store
+redis_python/iframe_figures/*
